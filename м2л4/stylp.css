@@ -1,0 +1,51 @@
+p {
+    font-family: 'Inter';
+    color: #5988FF;
+    font-size: 24px;
+    border-width: 2px;
+    text-decoration: underline;
+    text-decoration-color: rgb(96, 96, 104);
+}
+h1 {
+    font-family: 'Inter';
+    color: #5988FF;
+    text-decoration-color: black;
+}
+body{
+    background-color: #D6FF6B ; 
+}
+h2{
+  font-family: 'Inter';
+  color :#FD98FB ;
+  font-size: 35px;
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: blue;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+@keyframes colors {
+  0% {
+    color: red;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: red;
+  }
+}
+p:hover {
+  animation: colors 3s infinite;
+}
+h1:hover {
+    animation: color-change 3s infinite;
+}
